@@ -6,7 +6,7 @@ export default {
     argTypes: {
       level:{control:{ type:'range', min: 1, max: 6}},
       color: {control:'color'},
-      strong:{control:'boolean'},
+      strong:{control:'boolean'},  
       underline:{control:'boolean'},
     }
 };
