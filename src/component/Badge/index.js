@@ -45,7 +45,7 @@ const Badge = ({
   };
 
   let badge = null;
-  if(count>0){
+  if(count>=0){
    badge = (<Super style={colorStyle}>
         {maxCount && count > maxCount? `${maxCount}+`: count}
    </Super>);

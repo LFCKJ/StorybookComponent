@@ -22,7 +22,7 @@ const Image = ({
     width,
     height,
     alt,
-    mode ="cover",
+    mode="cover",
     ...props}) =>{
 const[loaded,setLoaded] = useState(!lazy);
 const imgRef = useRef(null);
@@ -73,6 +73,6 @@ Image.propTypes ={
     width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     alt: PropTypes.string,
-    mode: PropTypes.string,
+    mode: PropTypes,
 };
 export default Image;
